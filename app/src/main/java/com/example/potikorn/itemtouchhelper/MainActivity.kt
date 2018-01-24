@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
         btnClear.setOnClickListener { simpleList.clear(); simpleAdapter.items = mutableListOf() }
         btnSave.setOnClickListener { saveToLocal() }
         btnRestore.setOnClickListener { restoreFromLocal() }
-        // TODO check if local data exited
         setMockItems()
     }
 
